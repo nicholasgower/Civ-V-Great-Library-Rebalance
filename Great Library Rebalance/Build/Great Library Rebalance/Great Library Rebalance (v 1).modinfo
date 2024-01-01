@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="31099728-b9fc-4c98-a46e-eef85bd8594f" version="1">
+  <Properties>
+    <Name>Great Library Rebalance</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>This mod moves the Great Library to "Drama and Poetry" and the Writer's Guild to "Writing" in order to change the early metagam</Teaser>
+    <Description>This mod moves the Great Library to "Drama and Poetry" and the Writer's Guild to "Writing" in order to change the early metagame that has plagued every Civ V game. No more will making a beeline to the Great Library be the only good early-game strategy.</Description>
+    <Authors>Nicholas</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="2747B953221C093C97E605B836A718EE" import="0">Game Rules1.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Game Rules1.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
